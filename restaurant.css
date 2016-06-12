@@ -1,0 +1,56 @@
+* {
+    -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+body{
+    font-size: 62.5%;
+}
+
+#container {
+	max-width: 1200px;
+  margin: auto;
+	background: rgb(18, 112, 158);
+  font-size: 2em;
+  color: white;
+  padding: 1em;
+}
+.person {
+  float: left;
+  width: 15em;
+  height: auto;
+  background: none;
+  margin: 0.5em 0.5em 0.5em 0;
+  border: 3px solid white;
+  padding: 0.5em;
+}
+#share {
+  width: 15em;
+  height: auto;
+  background: none;
+}
+#invoice {
+  width: 20em;
+  height: auto;
+  color: rgb(18, 112, 158);
+  background: rgb(247, 249, 162)
+}
+h3 {
+  padding: 0.5em;
+}
+#bill {
+  padding: 0.5em;
+}
+p {
+  padding: 0 0 0 0.5em;
+}
+h2 {
+  padding: 0.2em;
+}
